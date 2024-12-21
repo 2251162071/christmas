@@ -1,0 +1,215 @@
+{% load static %}
+/* -------------------------------------style------------------------------------------------------ */
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+
+}
+/* -------------------------------------index.html------------------------------------------------------ */
+.home-page {
+    min-height: 200vh;
+    background: url("{% static 'images/9.png' %}") no-repeat center top 56px;
+    background-size: contain;
+    background-attachment: scroll;
+}
+
+.content {
+    padding-top: 3rem;
+    text-align: center;
+}
+/* -------------------------------------home.html------------------------------------------------------ */
+.about-page {
+    background-color: #fff;
+}
+
+.container1 {
+    width: 100%;
+    background: url("{% static 'images/9.png' %}") no-repeat center top 56px;
+    background-size: cover;
+    padding: 20px 0;
+    display: block;
+    z-index: 1001; /* Cao hơn nền tối */
+}
+
+.container {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 250px;   
+    object-fit: cover;
+}
+
+.medium-text {
+    padding-top: 2rem;
+    font-size: 40px;
+    font-weight: bold;
+    font-weight: 600;
+}
+
+.large-text {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.normal-text {
+    width: 50%;
+    padding: 10px 20px;
+    font-size: 36px;
+    display: inline-block;
+    border-radius: 5px;
+    border: 2px solid #b23227;
+    background-color: #b23227;
+    font-weight: 400;
+}
+.card-body {
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+    padding-top: 2rem;
+}
+.card-title {
+    font-size: 40px;
+    font-weight: bold;
+    font-weight: 600;
+}
+.container_md {
+    position: relative;
+    width: 100%;
+}
+
+.container_md_content {
+    position: relative;
+    color: white;
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+}
+
+.container_md_content_title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.footer_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 170px;
+    color: #fff;
+}
+
+.footer-img {
+    width: 40%;
+    height: auto;
+}
+
+.footer-text {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.footer-text div {
+    margin-bottom: 10px;
+}
+
+.bye-text {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.phone,
+.email,
+.restaurant {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.phone-text,
+.email-text,
+.restaurant-text {
+    font-weight: bold;
+    font-size: 28px;
+}
+.bye-text {
+    padding-bottom: 5rem;
+}
+
+/*  */
+body {
+    margin: 0;
+    height: 100%;
+}
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+/* Huan */
+/* Popup container */
+.popup {
+    display: none; /* Ẩn mặc định */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Nền tối mờ */
+    z-index: 10000;
+    justify-content: center;
+    align-items: center;
+}
+
+#popup-body {
+    display:block;
+}
+
+.popup-content {
+    background-color: #fff;
+    width: 90%;
+    max-height: 90vh;
+    overflow-y: auto;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #000;
+}
+
+.close-btn:hover {
+    color: red;
+}
+
+
+/* Square images for cards */
+.img-square {
+    object-fit: cover;
+    height: 150px;
+    width: 150px;
+    margin: 0 auto;
+}

@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff:
+db.sqlite3
+*.sqlite3
+media/
+staticfiles/
+local_settings.py
+
+# Migrations
+*/migrations/*
+!*/migrations/__init__.py
+
+# If you use dotenv to store secrets
+.env
+
+# If you use virtual environments:
+venv/
+.venv/
+ENV/
+env/
+
+# pipenv
+Pipfile
+Pipfile.lock
+
+# Installer logs
+pip-log.txt
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# npm / Node
+node_modules/
